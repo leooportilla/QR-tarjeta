@@ -1,0 +1,45 @@
+:root{
+    --Blanco: rgb(255, 255, 255);
+    --GrisClaro: rgb(214, 226, 240);
+    --AzulGrisaceo: rgb(123, 135, 157);
+    --AzulOscuro: rgb(31, 50, 81);
+    --Tipografia: 'Outfit', sans-serif;
+    --Radio: 15px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: var(--GrisClaro);
+}
+.Contenedor{
+    margin: 20vh auto;
+    width: 300px;
+    height: 100%;
+    border-radius: var(--Radio);
+    background-color: var(--Blanco);
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.1);
+}
+.ImagenQR{
+    width: 90%;
+    margin: 15px;
+    border-radius: var(--Radio);
+}
+.Titulos{
+    color: var(--AzulOscuro);
+    margin: 0px 20px;
+    text-align: center;
+    font-family: var(--Tipografia);
+    font-weight: 700;
+    font-size: 22px;
+}
+.Parrafos{
+    color: var(--AzulGrisaceo);
+    text-align: center;
+    font-family: var(--Tipografia);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 15px 20px;
+}
